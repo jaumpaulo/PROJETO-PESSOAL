@@ -114,7 +114,7 @@ alert (`
     `)
 
     
-    let nivelpergunta = prompt("Você quer colocar um nível no personagem? [S/N]").toUpperCase
+    let nivelpergunta = prompt("Você quer colocar um nível no personagem? [S/N]").toUpperCase()
     
     if (nivelpergunta === "S") {
         let nivel = true
