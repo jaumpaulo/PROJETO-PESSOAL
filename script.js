@@ -1,14 +1,15 @@
 alert(`
-    classses:   Raças:
-    Bárbaro    Anão
-    Bruxo       Elfo
-    Clérigo     Halfling
-    Druida      Humano
-    Feiticeiro  Draconato
-    Guerreiro  Gnomo
-    Ladino      Meio-Elfo
-    Mago        Meio-Orc
-    Monge       Tiefling
+    Classes:       Raças:
+    Bárbaro       Anão
+    Bardo         Elfo
+    Bruxo         Halfling
+    Clérigo       Humano
+    Druida        Draconato
+    Feiticeiro    Gnomo
+    Guerreiro     Meio-Elfo
+    Ladino        Meio-Orc
+    Mago          Tiefling
+    Monge
     Paladino
     Patrulheiro
     `)
@@ -42,7 +43,7 @@ if (raca === "ANÃO" || raca === "ANAO") {
 } else if (raca === "DRACONATO") {
     carisma = carisma + 1
     forca = forca + 2
-} else if (raca === "gnomo") {
+} else if (raca === "GNOMO") {
     destreza = destreza + 1
 } else if (raca === "MEIO-ELFO" || raca === "MEIO ELFO") {
     carisma = carisma + 2
@@ -114,10 +115,11 @@ alert (`
     `)
 
     
-    let nivelpergunta = prompt("Você quer colocar um nível no personagem? [S/N]").toUpperCase()
+    let nivelpergunta = prompt("Você quer colocar um nível no personagem? [S/N]").toUpperCase ()
+    let nivel
     
     if (nivelpergunta === "S") {
-        let nivel = true
+        nivel = true
     } else {alert("Até mais.")}
     
     if (nivel === true) {
