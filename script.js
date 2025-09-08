@@ -4,6 +4,7 @@ alert(`
     Quando pedir para digitar valores, coloque apenas números inteiros!
     Quando pedir para digitar, você escolher oque quer escrever
     `)
+
              let nome = prompt("Digite o nome do personagem: ")
             let raca = parseInt(prompt(`
                 Coloque a raça do seu personagem:
