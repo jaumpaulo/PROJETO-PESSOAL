@@ -4,11 +4,6 @@ alert(`
     Quando pedir para digitar valores, coloque apenas números inteiros!
     Quando pedir para digitar, você escolher oque quer escrever
     `)
-let escolhainicial = prompt(`
-    O que você deseja fazer/saber
-    1.criar uma fica   3.magias 
-    2.regras básicas   4.funcionalidades de habilidades
-    `)
              let nome = prompt("Digite o nome do personagem: ")
             let raca = parseInt(prompt(`
                 Coloque a raça do seu personagem:
